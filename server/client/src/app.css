@@ -1,0 +1,103 @@
+
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: start;
+   
+  }
+
+.title {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+   cursor: pointer;
+   animation: title 7.5s linear;
+   animation-iteration-count: infinite;
+}
+.search{
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 50px;
+    margin-right: 32px;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+    border: 0.5px solid rgb(65, 76, 230);
+    padding: 7px;
+    border-radius: 18px;
+
+    background-color: rgb(54, 166, 240);
+
+    font-size: 12px;
+    transition: 0.5s ease-out;
+}
+
+
+.okinfo{
+    display: inline-block;
+    margin-right: 342px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    
+    border: 0.5px solid rgb(94, 235, 216);
+    padding: 7px;
+    border-radius: 18px;
+
+    background-color: rgb(114, 230, 148);
+
+    font-size: 12px;
+    transition: 0.8s ease-out;
+}
+
+.search:hover {
+    background-color: rgb(233, 115, 115);
+    transition: 0.8s ease-out;
+}
+
+.okinfo:hover{
+    background-color: rgb(238, 206, 118);
+    transition: 0.8s ease-out;
+}
+
+@keyframes title{
+    100%,0%{
+        color: rgb(255,0,0);
+    }
+    8%{
+        color: rgb(255,127,0);
+    }
+    16%{
+        color: rgb(255,255,0);
+    }
+    25%{
+        color: rgb(127,255,0);
+    }
+    33%{
+        color: rgb(0,255,0);
+    }
+    41%{
+        color: rgb(0,255,127);
+    }
+    50%{
+        color: rgb(0,255,255);
+    }
+    58%{
+        color: rgb(0,127,255);
+    }
+    66%{
+        color: rgb(0,0,255);
+    }
+    75%{
+        color: rgb(127,0,255);
+    }
+    83%{
+        color: rgb(255,0,255);
+    }
+    91%{
+        color: rgb(255,0,127);
+    }
+}
+
+
+
+
